@@ -21,3 +21,5 @@ function generatePrime(start, range) {
 
 console.time('prime');
 generatePrime(min, max);
+console.timeEnd('prime');
+console.log(primes.length);
